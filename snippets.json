@@ -6,7 +6,8 @@
                     "andmore": "value2",
                     "newval": "because i want to test the update",
                     "somemore": "otherval",
-                    "someval": "somevar"
+                    "someval": "somevar",
+                    "update": "success"
                 },
                 "simpleini-test": {
                     "a": "b",
