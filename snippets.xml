@@ -35,7 +35,7 @@
 </key>
 
 <key name="system/configs/none/test/v1/git-commit-test/update"
-	value="success">
+	value="pretty">
 
      <comment><![CDATA[]]></comment>
 </key>
