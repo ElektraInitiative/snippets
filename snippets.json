@@ -3,6 +3,7 @@
         "test": {
             "v1": {
                 "git-commit-test": {
+                    "andmore": "value",
                     "somemore": "otherval",
                     "someval": "somevar"
                 },
