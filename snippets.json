@@ -1,0 +1,17 @@
+{
+    "none": {
+        "test": {
+            "v1": {
+                "git-commit-test": {
+                    "somemore": "otherval",
+                    "someval": "somevar"
+                },
+                "simpleini-test": {
+                    "a": "b",
+                    "c": "k",
+                    "e": "f"
+                }
+            }
+        }
+    }
+}
