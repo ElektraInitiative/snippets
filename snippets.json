@@ -4,6 +4,7 @@
             "v1": {
                 "git-commit-test": {
                     "andmore": "value2",
+                    "newval": "because i want to test the update",
                     "somemore": "otherval",
                     "someval": "somevar"
                 },
