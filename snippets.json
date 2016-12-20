@@ -61,12 +61,18 @@
         },
         "unison": {
             "v2.40.102": {
-                "multi-computer-setup": {
-                    "include common.inc": "",
-                    "label": "Synch between <myhost> and gateway",
-                    "logfile": "/home/markus/.unison/<myhost>.log",
-                    "root": "/home/<myname>"
-                }
+                "multi-computer-setup": [
+                    "# Unison preferences",
+                    "label = Synch between <host> and gateway",
+                    "",
+                    "root = /home/<name>",
+                    "root = ssh://gateway//home/<name>",
+                    "",
+                    "",
+                    "logfile = /home/<name>/.unison/<host>.log",
+                    "",
+                    "include common.inc"
+                ]
             }
         },
         "vim": {
