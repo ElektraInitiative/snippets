@@ -18,6 +18,14 @@
                 }
             }
         },
+        "mutt": {
+            "v1": {
+                "muttrc": {
+                    "mbox_type=Maildir": "",
+                    "set": ""
+                }
+            }
+        },
         "test": {
             "v1": {
                 "git-commit-test": {
