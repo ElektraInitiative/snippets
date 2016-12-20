@@ -1,4 +1,15 @@
 {
+    "kde": {
+        "kmail": {
+            "v4.14.1": {
+                "messages-unencrypted": {
+                    "reader": {
+                        "store-displayed-messages-unencrypted": "true"
+                    }
+                }
+            }
+        }
+    },
     "none": {
         "gtimelog": {
             "v0.9": {
