@@ -21,8 +21,14 @@
         "mutt": {
             "v1": {
                 "muttrc": {
-                    "mbox_type=Maildir": "",
-                    "set": ""
+                    "set folder": "~/Mail/",
+                    "set from": "contact@markus-raab.org",
+                    "set mask": "!^\\\\.[^.]",
+                    "set mbox_type": "Maildir",
+                    "set postponed": "+.pk-mutt-postponed",
+                    "set realname": "Markus Raab",
+                    "set record": "+.pk-mutt-record",
+                    "set spoolfile": "~/Mail/"
                 }
             }
         },
