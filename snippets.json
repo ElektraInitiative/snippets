@@ -95,6 +95,15 @@
             }
         }
     },
+    "testini": {
+        "v1": {
+            "test": {
+                "life": {
+                    "purpose": "none"
+                }
+            }
+        }
+    },
     "unison": {
         "v2.40.102": {
             "multi-computer-setup": [
