@@ -1,0 +1,19 @@
+{
+    "1": {
+        "canonical": "localhost",
+        "ipaddr": "127.0.0.1"
+    },
+    "2": {
+        "alias": "ip6-loopback",
+        "canonical": "ip6-localhost",
+        "ipaddr": "::1"
+    },
+    "3": {
+        "canonical": "ip6-allnodes",
+        "ipaddr": "ff02::1"
+    },
+    "4": {
+        "canonical": "ip6-allrouters",
+        "ipaddr": "ff02::2"
+    }
+}
