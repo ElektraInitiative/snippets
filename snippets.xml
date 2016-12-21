@@ -61,8 +61,7 @@
 <key name="system/configs/nanana.batman/git/v1/pro-test/core/editor">
 
      <value><![CDATA[mate -w
-quotepath = false
-autocrlf = input]]></value>
+quotepath = false]]></value>
      <comment><![CDATA[]]></comment>
 </key>
 

@@ -21,7 +21,7 @@
                         "gpgsign": "true"
                     },
                     "core": {
-                        "editor": "mate -w\nquotepath = false\nautocrlf = input"
+                        "editor": "mate -w\nquotepath = false"
                     },
                     "diff": {
                         "tool": "Kaleidoscope"
