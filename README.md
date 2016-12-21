@@ -28,3 +28,11 @@ kdb getmeta /<mountpoint>/path/to/the/snippet plugin
 // export snippet with right format
 kdb export /<mountpoint>/path/to/the/snippet <format/plugin>
 ```
+
+#### Which of the files should I use? ####
+
+We suggest using one of the ini exports, as the dump export uses absolute
+key paths and can therefore only be imported under the same path as it was
+exported (which is `system/configs`). The other available formats do not
+preserve meta data and/or ordering, which you should have if you want to
+lookup the upload format/plugin.
