@@ -135,11 +135,6 @@
                 "somemore": "otherval",
                 "someval": "somevar",
                 "update": "pretty"
-            },
-            "simpleini-test": {
-                "a": "b",
-                "c": "k",
-                "e": "f"
             }
         }
     },
@@ -154,18 +149,7 @@
     },
     "unison": {
         "v2.40.102": {
-            "multi-computer-setup": [
-                "# Unison preferences",
-                "label = Synch between <host> and gateway",
-                "",
-                "root = /home/<name>",
-                "root = ssh://gateway//home/<name>",
-                "",
-                "",
-                "logfile = /home/<name>/.unison/<host>.log",
-                "",
-                "include common.inc"
-            ]
+            "multi-computer-setup": ""
         }
     },
     "vim": {
