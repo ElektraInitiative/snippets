@@ -1,0 +1,14 @@
+{
+    "gtimelog": {
+        "edit_task_list_cmd": "",
+        "editor": "vim",
+        "gtk-completion": "True",
+        "hours": "10",
+        "list-email": "contact@markus-raab.org",
+        "mailer": "xdg-email mailto:%s",
+        "name": "Markus Raab",
+        "spreadsheet": "oocalc %s",
+        "task_list_url": "",
+        "virtual_midnight": "04:00"
+    }
+}
