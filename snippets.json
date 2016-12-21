@@ -10,6 +10,53 @@
             }
         }
     },
+    "nanana.batman": {
+        "git": {
+            "v1": {
+                "pro-test": {
+                    "branch": {
+                        "autosetuprebase": "always"
+                    },
+                    "commit": {
+                        "gpgsign": "true"
+                    },
+                    "core": {
+                        "editor": "mate -w\nquotepath = false\nautocrlf = input"
+                    },
+                    "diff": {
+                        "tool": "Kaleidoscope"
+                    },
+                    "difftool \"Kaleidoscope\"": {
+                        "cmd": "ksdiff --partial-changeset --relative-path \\\"$MERGED\\\" -- \\\"$LOCAL\\\" \\\"$REMOTE\\\""
+                    },
+                    "difftool \"sourcetree\"": {
+                        "cmd": "opendiff \\\"$LOCAL\\\" \\\"$REMOTE\\\"\npath ="
+                    },
+                    "filter \"lfs\"": {
+                        "clean": "git-lfs clean %f\nsmudge = git-lfs smudge %f\nrequired = true"
+                    },
+                    "git-tmbundle": {
+                        "ext-app": "stree\next-custom-cmd = ksdiff"
+                    },
+                    "gpg": {
+                        "program": "/usr/local/bin/gpg"
+                    },
+                    "merge": {
+                        "tool": "Kaleidoscope"
+                    },
+                    "mergetool \"Kaleidoscope\"": {
+                        "cmd": "ksdiff --merge --output \\\"$MERGED\\\" --base \\\"$BASE\\\" -- \\\"$LOCAL\\\" --snapshot \\\"$REMOTE\\\" --snapshot\ntrustexitcode = true"
+                    },
+                    "mergetool \"sourcetree\"": {
+                        "cmd": "/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \\\"$LOCAL\\\" \\\"$REMOTE\\\" -ancestor \\\"$BASE\\\" -merge \\\"$MERGED\\\"\ntrustExitCode = true"
+                    },
+                    "user": {
+                        "name": "😎"
+                    }
+                }
+            }
+        }
+    },
     "none": {
         "gtimelog": {
             "v0.9": {
