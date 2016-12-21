@@ -1,0 +1,6 @@
+{
+    "include common.inc": "",
+    "label": "Synch between <myhost> and gateway",
+    "logfile": "/home/markus/.unison/<myhost>.log",
+    "root": "/home/<myname>"
+}
