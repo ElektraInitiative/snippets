@@ -1,0 +1,14 @@
+[
+    "#switch between vim and shell",
+    "fancy-ctrl-z () {",
+    "\tif [[ $#BUFFER -eq 0 ]]; then",
+    "\t\tBUFFER=\"fg\"",
+    "\t\tzle accept-line",
+    "\telse",
+    "\t\tzle push-input",
+    "\t\tzle clear-screen",
+    "\tfi",
+    "}",
+    "zle -N fancy-ctrl-z",
+    "bindkey '^Z' fancy-ctrl-z"
+]
