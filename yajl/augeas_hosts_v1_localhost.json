@@ -1,0 +1,32 @@
+{
+    "1": {
+        "canonical": "localhost",
+        "ipaddr": "127.0.0.1"
+    },
+    "2": {
+        "alias[1]": "ip6-localhost",
+        "alias[2]": "ip6-loopback",
+        "canonical": "localhost",
+        "ipaddr": "::1"
+    },
+    "3": {
+        "canonical": "ip6-localnet",
+        "ipaddr": "fe00::0"
+    },
+    "4": {
+        "canonical": "ip6-mcastprefix",
+        "ipaddr": "ff00::0"
+    },
+    "5": {
+        "canonical": "ip6-allnodes",
+        "ipaddr": "ff02::1"
+    },
+    "6": {
+        "canonical": "ip6-allrouters",
+        "ipaddr": "ff02::2"
+    },
+    "7": {
+        "canonical": "ip6-allhosts",
+        "ipaddr": "ff02::3"
+    }
+}
