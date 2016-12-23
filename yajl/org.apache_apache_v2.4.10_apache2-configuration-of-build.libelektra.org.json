@@ -1,5 +1,4 @@
 [
-    "<IfModule mod_ssl.c>",
     "<VirtualHost *:443>",
     "        ServerName build.libelektra.org",
     "",
