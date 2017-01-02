@@ -1,0 +1,19 @@
+[
+    "# Use 90% of screen size for videos that are to large for the output device",
+    "autofit-larger = 90%x90%",
+    "",
+    "# Play English/German audio if available",
+    "alang = en,eng,de,ger",
+    "",
+    "# Use English subtitles",
+    "slang = en,eng",
+    "",
+    "# Use hardware video decoding",
+    "hwdec = videotoolbox",
+    "",
+    "# Use high quality output",
+    "vo = opengl-hq",
+    "",
+    "# Save playback position on quit",
+    "save-position-on-quit"
+]
