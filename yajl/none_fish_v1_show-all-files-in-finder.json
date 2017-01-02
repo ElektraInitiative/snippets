@@ -1,0 +1,6 @@
+[
+    "function show_all_files -d \"Show all files in Finder\"",
+    "  defaults write com.apple.finder AppleShowAllFiles YES; \\",
+    "  and killall Finder",
+    "end"
+]
