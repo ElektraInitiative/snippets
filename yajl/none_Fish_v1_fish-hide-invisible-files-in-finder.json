@@ -1,0 +1,6 @@
+[
+    "function hide_invisible_files -d \"Hide invisible files in Finder\"",
+    "  defaults delete com.apple.finder AppleShowAllFiles; \\",
+    "  and killall Finder",
+    "end"
+]
