@@ -1,0 +1,14 @@
+{
+    "DEFAULT": {
+        "compute_driver": "novadocker.virt.docker.DockerDriver",
+        "debug": "False",
+        "firewall_driver": "nova.virt.firewall.NoopFirewallDriver",
+        "verbose": "True",
+        "vif_plugging_is_fatal": "True",
+        "vif_plugging_timeout": "300"
+    },
+    "docker": {
+        "inject_key": "False",
+        "privileged": "False"
+    }
+}
