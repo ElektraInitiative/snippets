@@ -1,0 +1,25 @@
+{
+    "linux_bridge": {
+        "physical_interface_mappings": "labnetwork:eth1"
+    },
+    "ml2": {
+        "extension_drivers": "",
+        "mechanism_drivers": "linuxbridge",
+        "path_mtu": "0",
+        "tenant_network_types": "",
+        "type_drivers": "flat,vlan"
+    },
+    "ml2_type_flat": {
+        "flat_networks": "labnetwork,external"
+    },
+    "ml2_type_vlan": {
+        "network_vlan_ranges": "labnetwork"
+    },
+    "securitygroup": {
+        "enable_security_group": "True",
+        "firewall_driver": "neutron.agent.linux.iptables_firewall.IptablesFirewallDriver"
+    },
+    "vxlan": {
+        "enable_vxlan": "False"
+    }
+}
