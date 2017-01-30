@@ -1,0 +1,8 @@
+{
+    "DEFAULT": {
+        "container_formats": "ami,ari,aki,bare,ovf,ova,docker"
+    },
+    "image_format": {
+        "container_formats": "ami,ari,aki,bare,ovf,ova,docker"
+    }
+}
