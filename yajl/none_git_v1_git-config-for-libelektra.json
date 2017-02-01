@@ -1,0 +1,11 @@
+{
+    "branch \"master\"": {
+        "remote": "origin\nmerge = refs/heads/master"
+    },
+    "core": {
+        "repositoryformatversion": "0\nfilemode = true\nbare = false\nlogallrefupdates = true\nignorecase = true\nprecomposeunicode = true"
+    },
+    "remote \"origin\"": {
+        "url": "https://github.com/ElektraInitiative/libelektra.git\nfetch = +refs/heads/master:refs/remotes/origin/master"
+    }
+}
