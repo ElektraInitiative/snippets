@@ -1,0 +1,7 @@
+{
+    "server": {
+        "index": "index.html",
+        "listen": "80 default_server",
+        "root": "/var/www/default"
+    }
+}
